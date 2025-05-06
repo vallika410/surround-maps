@@ -1,0 +1,5 @@
+.searchLocation__card {
+    max-height: 300px;
+    overflow: auto;
+    border-bottom: solid 1px #e9e9e9;
+}

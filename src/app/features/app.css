@@ -1,0 +1,11 @@
+@import './navTabs/navTabs.css';
+@import './searchLocation/searchLocation.css';
+
+
+.app__view {
+    overflow: hidden;
+}
+
+.material-icons.app__simple-menu {
+    display: inline;
+}

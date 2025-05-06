@@ -1,0 +1,3 @@
+<div data-bind="foreach: searchListData" style="margin-top:25px" class="collection">
+		<a href="#" data-bind="text: name, css: {'collection-item': true, active: $parent.currentActive().name === name }, click: $parent.activate, value: $data"></a>
+</div>

@@ -1,0 +1,18 @@
+<header>
+	<nav class="teal lighten-2">
+		<div class="container">
+			<a href="#" data-activates="nav-mobile" class="collapse">
+				<i class="material-icons app__simple-menu">menu</i></a>
+		</div>
+	</nav>
+	<ul id="nav-mobile" class="side-nav app__view" style="transform: translateX(-100%);">
+		<li>
+			<h3 class="center" data-bind="text: headerName"></h3>
+			<nav-tabs params="venues: searchList, search: searchNeighbors, attrs: attrs, attrsLoc: attrsLoc"></nav-tabs>
+		</li>
+	</ul>
+</header>
+<main>
+	<div id="map"></div>
+</main>
+<footer></footer>

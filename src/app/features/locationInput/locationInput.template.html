@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="divider"></div>
+		<div class="container">
+			<div class="nav-wrapper">
+				<div class="row search">
+
+					<div class="input-field col s12 search-wrapper card">
+						<i class="material-icons prefix">location_on</i>
+						<!--currentLocation: The current location -->
+						<input id="icon_prefix" type="text" data-bind="textInput: currentLocation" />
+						<label for="icon_prefix" class="places">Location</label>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+<search-list params="places: searchPlaces, attrs: attrsLoc"></search-list>

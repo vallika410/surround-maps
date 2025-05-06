@@ -1,0 +1,18 @@
+<div class="row navTabs">
+	<div class="col s12">
+		<ul class="tabs tabs-fixed-width">
+			<li class="tab col s6"><a href="#locationTab" class="">Location</a></li>
+			<li class="tab col s6"><a class="active" href="#searchTab">Search</a></li>
+		</ul>
+	</div>
+	<ul id="locationTab" class="col s12">
+		<li>
+			<location-input params="attrsLoc: params.attrsLoc"></location-input>
+		</li>
+	</ul>
+	<ul id="searchTab" class="col s12">
+		<li class="search">
+			<search-location params="locations: venues, search: params.search, attrs: params.attrs"></search-location>
+		</li>
+	</ul>
+</div>

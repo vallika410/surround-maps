@@ -1,0 +1,12 @@
+<div class="search-wrapper card">
+	<!--searchNeighbors: Search the list of neighbors -->
+	<input id="search" data-bind="textInput: searchNeighbors"><i class="material-icons" data-bind="click: search">search</i>
+	
+	
+</div>
+<div class="row">
+		<div class="search-results col s12 searchLocation__card">
+		<search-list params="places: searchLocList, attrs: attrs"></search-list>
+		</div>
+		
+</div>
